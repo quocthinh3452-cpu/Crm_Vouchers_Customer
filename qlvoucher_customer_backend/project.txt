@@ -1,0 +1,72 @@
+Folder PATH listing for volume DATA
+Volume serial number is CE72-1AC3
+D:.
+|   .gitattributes
+|   .gitignore
+|   mvnw
+|   mvnw.cmd
+|   pom.xml
+|   project.txt
+|   README.md
+|   
++---.idea
+|       .gitignore
+|       misc.xml
+|       workspace.xml
+|       
++---.mvn
+|   \---wrapper
+|           maven-wrapper.properties
+|           
+\---src
+    +---main
+    |   +---java
+    |   |   \---org
+    |   |       \---example
+    |   |           \---template_architecture
+    |   |               |   TemplateArchitectureApplication.java
+    |   |               |   
+    |   |               +---application
+    |   |               |   +---dto
+    |   |               |   |       {Entity}Request.java
+    |   |               |   |       {Entity}Response.java
+    |   |               |   |       
+    |   |               |   +---input
+    |   |               |   |       I{Action}{Entity}.java
+    |   |               |   |       
+    |   |               |   +---interactor
+    |   |               |   |       {Action}{Entity}Impl.java
+    |   |               |   |       
+    |   |               |   \---mapper
+    |   |               |           {Entity}Mapper.java
+    |   |               |           
+    |   |               +---domain
+    |   |               |   +---entity
+    |   |               |   |       {Entity}.java
+    |   |               |   |       
+    |   |               |   \---repository
+    |   |               |           {Entity}Repository.java
+    |   |               |           
+    |   |               +---infrastructure
+    |   |               |   +---config
+    |   |               |   |       {Entity}BeanConfig.java
+    |   |               |   |       
+    |   |               |   \---persistence
+    |   |               |           {Entity}DbEntity.java
+    |   |               |           {Entity}JpaRepository.java
+    |   |               |           {Entity}RepositoryImpl.java
+    |   |               |           
+    |   |               \---presentation
+    |   |                   \---controller
+    |   |                           {Entity}Controller.java
+    |   |                           
+    |   \---resources
+    |           application.properties
+    |           
+    \---test
+        \---java
+            \---org
+                \---example
+                    \---template_architecture
+                            TemplateArchitectureApplicationTests.java
+                            
